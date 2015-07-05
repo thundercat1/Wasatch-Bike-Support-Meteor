@@ -41,24 +41,15 @@ footer a {
   text-decoration: none;
 }
 
-.logo{
+
+.logo a{
   height: 150px;
-  
+  display: block;
   text-align: center;
-  background-image: url(/resources/wbs-weblogo.png);
+  background-image: url(/wbs-weblogo.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-/*
-.logo:after{
-  content:url('/resources/wbs-logo.png');
-  z-index: 1000;
-  width: 100px;
-  height: 50px;
-  display: inline-block;
-}
-*/
 
 .nav {
   margin-top: 15px;
@@ -110,6 +101,10 @@ footer a {
   margin-top: 10px;
 }
 
+.panel-title {
+  color: #323232;
+}
+/*
 
 .services-menu-wrapper {
   -webkit-transition:all .5s ease-in-out;
@@ -124,3 +119,4 @@ footer a {
   margin-right: -20px;
 }
 }
+*/

@@ -39,6 +39,6 @@ Router.route('/contact', function(){
 	this.render('contact');
 })
 
-Router.route('/servicesNew', function(){
-  this.render('servicesNew');
+Router.route('/servicesArchive', function(){
+  this.render('servicesArchive');
 })
