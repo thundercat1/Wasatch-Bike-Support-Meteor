@@ -1,0 +1,126 @@
+html, body{
+  height: 100%;
+  display: block;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #333;
+  -webkit-box-shadow: inset 0 0 120px rgba(0,0,0,1);
+          box-shadow: inset 0 0 120px rgba(0,0,0,1);
+  color: white;
+}
+
+.panel-body{
+  color: black;
+}
+
+footer{
+  margin-top: 40px;
+}
+footer ul{
+  list-style: none;
+}
+
+.footer-contact > li{
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.logo a{
+  color: white;
+  text-decoration: none;
+}
+
+.logo{
+  height: 150px;
+  
+  text-align: center;
+  background-image: url(/resources/wbs-weblogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*
+.logo:after{
+  content:url('/resources/wbs-logo.png');
+  z-index: 1000;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+}
+*/
+
+.nav {
+  margin-top: 15px;
+}
+
+.nav-btn {
+  color: white;
+}
+.nav-btn:hover{
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.nav > li {
+  display: inline-block;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus{
+  border-bottom: 2px solid transparent;
+  background-color: transparent;
+  outline: 0;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+
+.nav > li.active {
+  border-bottom: 2px solid transparent;
+  border-bottom-color: #1A4E1A;
+  
+}
+.nav a{
+  color: white;
+}
+
+.jumbotron {
+  padding-top: 0px;
+  text-align: center;
+  background: none;
+}
+
+.link-btn {
+  background: #1a4e1a;
+  height: 75px;
+  width: 175px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+
+.services-menu-wrapper {
+  -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+
+@media (max-width: 600px){
+.services-menu-wrapper {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+}

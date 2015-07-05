@@ -1,0 +1,18 @@
+<template name="navbar">
+	<div class="row header clearfix center">
+      <div class="col-sm-6">
+        <a href="#/"><div class="logo col-sm-6"></div></a>
+        <!--h2 class="logo"><a href='#/'><img src="/wbs-weblogo.png" alt="Wasatch Bike Support" width="250px"></a></h2-->
+        <h2 class="logo"><a href='/'>Wasatch Bike Support</a></h2>
+
+      </div>
+      <div class="col-sm-6">
+        <nav>
+          <ul class="nav">
+            <li role="presentation" class={{activeIfTemplateIs 'Services'}}><a href="/services">Services</a></li>
+            <li role="presentation" class={{activeIfTemplateIs 'About'}}><a href="/About">About</a></li>
+            <li role="presentation" class={{activeIfTemplateIs 'Contact'}}><a href="/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div></template>
