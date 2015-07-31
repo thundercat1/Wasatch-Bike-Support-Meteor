@@ -15,6 +15,7 @@ if (Meteor.isServer) {
   });
 }
 
+
 Router.configure({
   layoutTemplate: 'layout',
   notFoundTemplate: 'index'
